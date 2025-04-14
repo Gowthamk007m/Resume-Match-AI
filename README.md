@@ -94,6 +94,8 @@ SECRET_KEY=your-secret-key
 
 ## 🧑‍💻 Author
 
+**portfolio links** - [Porflio](https://gowtham-porfolio.netlify.app/) • [Github](https://github.com/gowthamk007m)
+
 **Gowtham K M** – https://gowtham-porfolio.netlify.app/ • https://github.com/gowthamk007m
 
 ---
