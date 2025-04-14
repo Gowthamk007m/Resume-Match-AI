@@ -94,7 +94,7 @@ SECRET_KEY=your-secret-key
 
 ## 🧑‍💻 Author
 
-**Your Name** – https://yourwebsite.dev • https://github.com/yourusername
+**Gowtham K M** – https://gowtham-porfolio.netlify.app/• https://github.com/gowthamk007m
 
 ---
 
