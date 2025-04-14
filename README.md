@@ -94,7 +94,7 @@ SECRET_KEY=your-secret-key
 
 ## 🧑‍💻 Author
 
-**Gowtham K M** – https://gowtham-porfolio.netlify.app/• https://github.com/gowthamk007m
+**Gowtham K M** – https://gowtham-porfolio.netlify.app/ • https://github.com/gowthamk007m
 
 ---
 
