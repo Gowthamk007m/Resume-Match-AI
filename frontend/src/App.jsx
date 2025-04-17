@@ -1,14 +1,11 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import ResumeMatcher from './components/ResumeMatcher';
 
 function App() {
   return (
-    <div className="p-4 text-xl font-bold text-blue-600 ">
-      🚀 HR AI Screener (React + Vite + Tailwind)
+    <div className="min-h-screen flex items-center justify-center bg-gray-100">
+      <ResumeMatcher />
     </div>
   );
 }
-export default App;
 
+export default App;
