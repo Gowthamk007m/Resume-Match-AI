@@ -37,30 +37,30 @@ function ResumeMatcher() {
   };
 
   return (
-    <div className="max-w-md mx-auto p-4 shadow-md rounded bg-white">
-      <h2 className="text-2xl font-bold mb-4">AI Resume Matcher</h2>
+    <div className="max-w-md mx-auto p-4 shadow-md rounded bg-gradient-to-r from-[#2a8be62a] via-[#6b696a2a] to-[#74727231]">
+      <h2 className="text-2xl font-bold mb-4 text-cyan-50">AI Resume Matcher</h2>
       <form onSubmit={handleSubmit}>
         <div className="mb-4">
-          <label className="block mb-2 font-semibold">Upload Resume (PDF)</label>
+          <label className="block mb-2 font-semibold text-cyan-50">Upload Resume (PDF)</label>
           <input
             type="file"
             accept=".pdf"
             onChange={(e) => setResumeFile(e.target.files[0])}
-            className="border p-2 w-full"
+            className="border p-2 w-full text-cyan-50"
           />
         </div>
         <div className="mb-4">
-          <label className="block mb-2 font-semibold">Job Description</label>
+          <label className="block mb-2 font-semibold text-cyan-50">Job Description</label>
           <textarea
             value={jobDescription}
             onChange={(e) => setJobDescription(e.target.value)}
-            className="border p-2 w-full"
+            className="border p-2 w-full bg-[#2a8be62a] text-cyan-50 "
             rows="4"
           ></textarea>
         </div>
         <button
           type="submit"
-          className="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 w-full"
+          className="bg-[#2a8be62a] text-white px-4 py-2 rounded hover:bg-[#11416e] w-full"
           disabled={loading}
         >
           {loading ? 'Matching...' : 'Match Resume'}
@@ -69,7 +69,7 @@ function ResumeMatcher() {
 
       {similarityScore !== null && (
         <div className="mt-6 text-center">
-          <h3 className="text-xl font-semibold">Match Score:</h3>
+          <h3 className="text-xl font-semibold text-cyan-50">Match Score:</h3>
           <p className="text-3xl text-green-600">{similarityScore * 100}%</p>
         </div>
       )}
