@@ -1,4 +1,5 @@
 import BeamsBackground from './components/beams-background';
+import Navbar from './components/Navbar';
 import ResumeMatcher from './components/ResumeMatcher';
 
 function App() {
@@ -6,6 +7,7 @@ function App() {
     <div className="relative min-h-screen overflow-hidden">
       <BeamsBackground />
       <main className="relative z-10 p-6">
+        <Navbar/>
         <ResumeMatcher />
       </main>
     </div>
